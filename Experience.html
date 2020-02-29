@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<main class="page-content" aria-label="Content">
+    <div >
+      {%- if site.data.experience.size > 0 -%}
+        {%- include experience.html -%}
+      {%- endif -%}
+
+      {%- if site.data.education.size > 0 -%}
+        {%- include education.html -%}
+      {%- endif -%}
+    </div>
+ </main>
